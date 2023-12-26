@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 from sqlalchemy_utils import database_exists, create_database
 
 # Configuration
-DB_NAME = '' 
+DB_NAME = 'dbProject' 
 DB_OWNER = 'SurenyanVahagn'
 DB_URI = f'postgresql:///{DB_NAME}'
 
